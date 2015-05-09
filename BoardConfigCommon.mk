@@ -157,6 +157,8 @@ ifeq ($(HOST_OS),linux)
   endif
 endif
 
+BOARD_USES_QC_TIME_SERVICES := true
+
 # inherit from the proprietary version
 ifneq ($(QCPATH),)
 -include $(QCPATH)/common/msm8974/BoardConfigVendor.mk
