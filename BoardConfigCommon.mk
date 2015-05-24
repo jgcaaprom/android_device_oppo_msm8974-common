@@ -178,5 +178,5 @@ BOARD_SEPOLICY_DIRS += \
 
 #Rom Optimizations
 KRAIT_TUNINGS := true
-FLOOP_NEST_OPTIMIZE := true
-GRAPHITE_OPTS := true
+#FLOOP_NEST_OPTIMIZE := true
+#GRAPHITE_OPTS := true
