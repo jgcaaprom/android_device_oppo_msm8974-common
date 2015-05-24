@@ -177,9 +177,6 @@ BOARD_SEPOLICY_DIRS += \
 -include vendor/oppo/msm8974-common/BoardConfigVendor.mk
 
 #Rom Optimizations
-USE_HOST_4_8 := true
-USE_O3_OPTIMIZATIONS := true
 KRAIT_TUNINGS := true
-STRICT_ALIASING := true
-ENABLE_GCCONLY := true
 FLOOP_NEST_OPTIMIZE := true
+GRAPHITE_OPTS := true
